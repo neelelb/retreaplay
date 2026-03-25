@@ -9,7 +9,7 @@ We use the data from Lennarts [NatComm Paper](https://doi.org/10.1038/s41467-021
 
 ## Decoding Results 
 You can find the decoding results on hummel:
-
+`/beegfs/g/schuck/bbf2463/Projects/Retreat2026`
 
 ## Virtual Environment
 On Hummel you can access the virtual environment via: 
