@@ -1,0 +1,67 @@
+{
+    "pred_label": {
+        "description": "predicted label of the classifier",
+        "type": "str"
+    },
+    "stim": {
+        "description": "first stimuli of sequence (?)",
+        "type": "str"
+    },
+    "tr": {
+        "description": "TR",
+        "type": "int"
+    },
+    "seq_tr": {
+        "description": "TR within the sequence ",
+        "type": "int",
+        "values": "1-13"
+    },
+    "stim_tr": {
+        "description": "TR for first elem of this sequence",
+        "type": "int"
+    },
+    "trial": {
+        "description": "trial number",
+        "type": "int"
+    },
+    "run_study": {
+        "description": "run of study",
+        "type": "int",
+        "values": "1-8"
+    },
+    "session": {
+        "description": "session",
+        "type": "int",
+        "values": "1-2"
+    },
+    "tITI": {
+        "description": "sequence speed (ITI between sequence items)",
+        "type": "int",
+        "values": "one of 0.032, 0.064, 0.128, 0.512, 2.048"
+    },
+    "id": {
+        "description": "subject ID",
+        "type": "str"
+    },
+    "test_set": {
+        "description": "task: oddball task, fast and slow sequence task",
+        "type": "str"
+    },
+    "classifier": {
+        "description": "which classifier is running",
+        "type": "str"
+    },
+    "mask": {
+        "description": "which mask is used",
+        "type": "str",
+        "mask": "cv or cv_hpc"
+    },
+    "class": {
+        "description": " ???",
+        "type": "str"
+    },
+    "probability": {
+        "description": "probability of this classifier for this TR",
+        "type": "int"
+    }
+}
