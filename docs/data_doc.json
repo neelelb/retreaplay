@@ -17,7 +17,7 @@
         "values": "1-13"
     },
     "stim_tr": {
-        "description": "TR for first elem of this sequence",
+        "description": "TR for first elem of this sequence (stim)",
         "type": "int"
     },
     "trial": {
@@ -36,7 +36,7 @@
     },
     "tITI": {
         "description": "sequence speed (ITI between sequence items)",
-        "type": "int",
+        "type": "float",
         "values": "one of 0.032, 0.064, 0.128, 0.512, 2.048"
     },
     "id": {
@@ -49,7 +49,8 @@
     },
     "classifier": {
         "description": "which classifier is running",
-        "type": "str"
+        "type": "str",
+        "values": "log_reg is the multinomial classifier, the others (cat, chair,...) are one-vs-rest classifiers"
     },
     "mask": {
         "description": "which mask is used",
@@ -57,11 +58,11 @@
         "mask": "cv or cv_hpc"
     },
     "class": {
-        "description": " ???",
+        "description": "class this classifier predicted",
         "type": "str"
     },
     "probability": {
-        "description": "probability of this classifier for this TR",
-        "type": "int"
+        "description": "probability of this classifier for its category for this TR",
+        "type": "float"
     }
 }
